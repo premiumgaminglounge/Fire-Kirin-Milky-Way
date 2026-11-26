@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080808">
+<title>Fire Kirin Milky Way Cash Out 24/7</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+ background:#080808;color:#fff;
+ font-family:Arial,sans-serif;
+}
+header{
+ background:#111;
+ border-bottom:2px solid #d5a52b;
+ padding:18px 12px;text-align:center;
+}
+.logo{color:#f6c64b;font-size:25px;font-weight:900}
+header p{color:#ddd;font-size:12px;margin-top:8px}
+nav{
+ display:flex;justify-content:center;gap:9px;
+ flex-wrap:wrap;padding:13px;background:#171717;
+}
+nav a,.btn{
+ text-decoration:none;color:#111;
+ background:linear-gradient(135deg,#ffe18a,#bd861d);
+ padding:11px 15px;border-radius:7px;
+ font-size:12px;font-weight:bold;
+}
+.hero{
+ text-align:center;padding:45px 15px;
+ background:radial-gradient(ellipse at center,#40300d,#080808 70%);
+}
+.hero h1{color:#f7ca55;font-size:29px}
+.hero p{color:#ddd;margin:15px auto;line-height:1.6}
+.section{padding:25px 14px;max-width:1100px;margin:auto}
+.heading{
+ color:#f4c34c;text-align:center;
+ font-size:23px;margin-bottom:22px;
+}
+.grid{
+ display:grid;
+ grid-template-columns:repeat(2,minmax(0,1fr));
+ gap:13px;
+}
+.game{
+ background:linear-gradient(145deg,#222,#101010);
+ border:1px solid #a77a24;
+ border-radius:12px;padding:17px 10px;
+ text-align:center;
+}
+.game .symbol{font-size:35px;margin-bottom:10px}
+.game h3{font-size:15px;color:#f4cb64;margin-bottom:13px}
+.game a{
+ display:block;text-decoration:none;
+ background:linear-gradient(135deg,#ffdf80,#b77b12);
+ color:#111;padding:11px 5px;
+ border-radius:6px;font-weight:bold;font-size:12px;
+}
+.game a.disabled{
+ background:#444;color:#bbb;
+ pointer-events:none;
+}
+.links{
+ background:#151515;border:1px solid #9b742b;
+ padding:20px;border-radius:12px;text-align:center;
+}
+.links p{font-size:12px;color:#ddd;margin:12px 0;word-break:break-all}
+.links button{border:0;cursor:pointer;margin:5px}
+.contact{
+ display:grid;grid-template-columns:1fr 1fr;
+ gap:12px;margin-top:18px;
+}
+.contact a{
+ text-decoration:none;text-align:center;
+ padding:15px 5px;border-radius:8px;
+ color:white;font-weight:bold;font-size:13px;
+ background:#252525;border:1px solid #b58a32;
+}
+.contact .wa{background:#126c39}
+.contact .ms{background:#1559a4}
+footer{
+ text-align:center;padding:25px 12px;
+ color:#aaa;background:#111;
+ font-size:12px;line-height:1.8;
+ border-top:1px solid #b58a32;
+}
+@media(min-width:650px){
+ .grid{grid-template-columns:repeat(4,1fr)}
+ .hero h1{font-size:40px}
+}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="logo">🔥 FIRE KIRIN</div>
+ <p>MILKY WAY CASH OUT 24/7</p>
+</header>
+
+<nav>
+ <a href="#home">HOME</a>
+ <a href="#games">GAMES</a>
+ <a href="#links">SHARE WEBSITE</a>
+ <a href="#contact">CONTACT</a>
+</nav>
+
+<section class="hero" id="home">
+ <h1>FIRE KIRIN MILKY WAY</h1>
+ <p>Welcome to Our Online Gaming Platforms</p>
+ <a class="btn" href="#games">EXPLORE GAMES</a>
+</section>
+
+<section class="section" id="games">
+ <h2 class="heading">🎮 OUR GAMING PLATFORMS</h2>
+ <div class="grid" id="gameGrid"></div>
+</section>
+
+<section class="section" id="links">
+ <h2 class="heading">🌐 WEBSITE & SHARE</h2>
+ <div class="links">
+  <h3 style="color:#f4c34c">OUR WEBSITE LINK</h3>
+  <p id="siteLink"></p>
+  <button class="btn" onclick="copyWebsite()">COPY WEBSITE LINK</button>
+  <button class="btn" onclick="shareWebsite()">SHARE WEBSITE</button>
+ </div>
+</section>
+
+<section class="section" id="contact">
+ <h2 class="heading">📞 CONTACT & SUPPORT</h2>
+ <div class="contact">
+  <a class="ms" href="https://m.me/1357941364079861" target="_blank">💬 MESSENGER</a>
+  <a class="wa" href="https://wa.me/14482414979" target="_blank">📱 WHATSAPP</a>
+  <a href="#" onclick="openLiveChat();return false">🎧 LIVE CHAT</a>
+  <a href="#games">🎮 PLAYER LINKS</a>
+ </div>
+</section>
+
+<footer>
+ <p><b>FIRE KIRIN MILKY WAY CASH OUT 24/7</b></p>
+ <p>18+ Only | Entertainment Purposes Only</p>
+ <p>Please play responsibly. Follow applicable local laws.</p>
+ <p>© 2026 All Rights Reserved</p>
+</footer>
+
+<script>
+const games = [
+ ["Juwa 777","🎰",""],
+ ["Fire Kirin","🔥","https://firekirin.com/download-fire-kirin-app.html"],
+ ["Milky Way","🌌",""],
+ ["Orion Star","⭐",""],
+ ["Vegas Roll","🎲",""],
+ ["Game Vault","🏆",""],
+ ["Vegas Sweeps","🎯",""],
+ ["Ultra Panda","🐼",""],
+ ["Vblink","🎮",""],
+ ["Yolo 777","💎",""],
+ ["Cash Machine","💰",""],
+ ["Juwa 2.0","🎰",""]
+];
+
+const grid=document.getElementById("gameGrid");
+
+games.forEach(g=>{
+ const card=document.createElement("div");
+ card.className="game";
+ const link=document.createElement("a");
+ link.textContent=g[2]?"PLAYER LINK":"LINK NEEDED";
+ link.href=g[2]||"#";
+ if(g[2]){
+  link.target="_blank";
+  link.rel="noopener noreferrer";
+ }else{
+  link.className="disabled";
+ }
+ const symbol=document.createElement("div");
+ symbol.className="symbol";
+ symbol.textContent=g[1];
+ const title=document.createElement("h3");
+ title.textContent=g[0];
+ card.append(symbol,title,link);
+ grid.appendChild(card);
+});
+
+document.getElementById("siteLink").textContent=location.href;
+
+function copyWebsite(){
+ navigator.clipboard.writeText(location.href)
+ .then(()=>alert("Website link copied!"))
+ .catch(()=>alert("Please copy the website address from your browser."));
+}
+
+async function shareWebsite(){
+ if(navigator.share){
+  try{
+   await navigator.share({
+    title:"Fire Kirin Milky Way Cash Out 24/7",
+    url:location.href
+   });
+  }catch(e){}
+ }else{
+  copyWebsite();
+ }
+}
+
+function openLiveChat(){
+ if(window.Chaport && typeof window.Chaport.open==="function"){
+  window.Chaport.open();
+ }else{
+  alert("Live Chat will be available after adding your Chaport installation code.");
+ }
+}
+</script>
+</body>
+</html>
